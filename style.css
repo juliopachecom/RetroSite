@@ -1,0 +1,158 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    color: white;
+}
+
+h2{
+    font-family: alba;
+}
+
+header .carousel-inner .item{
+    height: 100vh;
+}
+
+.navbar{
+	background-color: rgb(255, 255, 255);
+	border-color: transparent;
+    
+}
+
+.texto h2{
+    font-family: 'Berkshire Swash', bold, cursive;
+}
+
+
+.carousel{
+    height: 100vh;
+}
+
+.carousel-item img{
+    height: 100vh;
+    filter: brightness(70%);
+}
+
+.carousel-caption{
+    margin-bottom: 180px;
+    margin-left: auto;
+    left: 1000%;
+}
+.carousel-caption h2 {
+	font-size: 50px;
+	text-transform: uppercase;
+	font-family: 'Alfa Slab One', cursive;
+}
+.carousel-caption .btn {
+	display: inline-block;
+	margin-top: 15px;
+}
+
+
+.container{
+    margin-top: 50px;
+}
+
+.queen img:hover{
+    transition: .9s;
+    transform: scale(1.1)
+}
+
+.queen-discos img:hover{
+    transition: .9s;
+    transform: scale(1.1)
+}
+
+.footer{
+    margin-top: 50px;
+    width: 100%;
+    height: 50px;
+    padding: 20px 80px;
+    background-color: rgb(4, 4, 4);
+    text-align: center;
+    color: #fff;
+}
+
+@media only screen and (max-width: 990px) {
+    .navbar-nav{
+        text-align: center;
+    }
+
+    .corousel-caption{
+        bottom: 125px;
+    }
+
+    .corousel-caption h1{
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+    .corousel-caption a{
+        padding: 10px 15px;
+    }
+
+    .corousel-caption p{
+        width: 100%;
+        line-height: 1.6;
+        font-size: 12px;
+    }
+
+    .imagenes{
+        width: 400px;
+        height: 300px;
+    }
+    .imagenes img{
+        width: 0px;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: .8;
+        transition: .5s ease;
+    }
+    .imagenes img:hover{
+        cursor: crosshair;
+        width: 200px;
+        opacity: 1;
+        filter: contrast(120%);
+    }
+}
+
+
+.products {
+	padding: 5% 0 0;
+}
+
+.instrumentos .card-title {
+	font-size: 30px;
+	font-weight: 700;
+    transition: all .5s ease-in-out;
+}
+.btn-group .btn {
+	background: #fe4c38;
+	color: #fff;
+	font-size: 18px;
+	margin-right: 5px;
+	padding: 10px 20px;
+	font-weight: 700;
+    transition: all .6s ease-in;
+}
+.price {
+	font-size: 25px; 
+	font-weight: 900;    
+    transition: .6s;
+}
+.card:hover .price{
+    animation: pulse .5s ease-in-out infinite;
+}
+@keyframes pulse{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(.95);
+    }
+    0%{
+        transform: scale(1);
+    }
+}
+
+
